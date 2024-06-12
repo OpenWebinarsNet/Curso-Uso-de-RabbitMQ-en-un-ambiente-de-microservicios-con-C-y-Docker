@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xQVy3ZGWhJU=",
+  "success": true,
+  "projectFilePath": "G:\\ProyectosRonyCuzco\\OpenWebinars\\Curso RabbitMQ\\Curso RabbitMQ - Parte 2\\Ejemplos\\WorkinghoursManagement-Microservice.git\\WorkinghoursManagement\\WorkinghoursManagement.Domain\\WorkinghoursManagement.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rcfle\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationsManagement.Api", "NotificationsManagement\NotificationsManagement.Api\NotificationsManagement.Api.csproj", "{DBC7A71C-EB59-401C-954D-DA7D3B578636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationsManagement.Application", "NotificationsManagement\NotificationsManagement.Application\NotificationsManagement.Application.csproj", "{8AAEEF73-D45D-467B-B2CE-D6FE415733C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationsManagement.CrossCutting", "NotificationsManagement\NotificationsManagement.CrossCutting\NotificationsManagement.CrossCutting.csproj", "{3C9549A6-EF75-444F-803E-FB6E9CFB28EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationsManagement.Domain", "NotificationsManagement\NotificationsManagement.Domain\NotificationsManagement.Domain.csproj", "{2F28CE79-066C-4982-9218-90C35B4DC97E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationsManagement.Domain.Core", "NotificationsManagement\NotificationsManagement.Domain.Core\NotificationsManagement.Domain.Core.csproj", "{8CEFBAFF-629E-44FA-8669-48359917A254}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationsManagement.Infrastructure", "NotificationsManagement\NotificationsManagement.Infrastructure\NotificationsManagement.Infrastructure.csproj", "{F805EC90-0DE9-43C4-8B9A-C7397439E5B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationsManagement.Util", "NotificationsManagement\NotificationsManagement.Util\NotificationsManagement.Util.csproj", "{66CB481A-CAF9-4613-9DCD-C0C4C57DF844}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationsManagement.UnitTests", "NotificationsManagement\NotificationsManagement.UnitTests\NotificationsManagement.UnitTests.csproj", "{531B0AEE-C077-4AE7-B333-EB09C9089927}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBC7A71C-EB59-401C-954D-DA7D3B578636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC7A71C-EB59-401C-954D-DA7D3B578636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC7A71C-EB59-401C-954D-DA7D3B578636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC7A71C-EB59-401C-954D-DA7D3B578636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AAEEF73-D45D-467B-B2CE-D6FE415733C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AAEEF73-D45D-467B-B2CE-D6FE415733C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AAEEF73-D45D-467B-B2CE-D6FE415733C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AAEEF73-D45D-467B-B2CE-D6FE415733C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C9549A6-EF75-444F-803E-FB6E9CFB28EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C9549A6-EF75-444F-803E-FB6E9CFB28EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C9549A6-EF75-444F-803E-FB6E9CFB28EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C9549A6-EF75-444F-803E-FB6E9CFB28EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F28CE79-066C-4982-9218-90C35B4DC97E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F28CE79-066C-4982-9218-90C35B4DC97E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F28CE79-066C-4982-9218-90C35B4DC97E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F28CE79-066C-4982-9218-90C35B4DC97E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CEFBAFF-629E-44FA-8669-48359917A254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CEFBAFF-629E-44FA-8669-48359917A254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CEFBAFF-629E-44FA-8669-48359917A254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CEFBAFF-629E-44FA-8669-48359917A254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F805EC90-0DE9-43C4-8B9A-C7397439E5B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F805EC90-0DE9-43C4-8B9A-C7397439E5B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F805EC90-0DE9-43C4-8B9A-C7397439E5B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F805EC90-0DE9-43C4-8B9A-C7397439E5B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66CB481A-CAF9-4613-9DCD-C0C4C57DF844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66CB481A-CAF9-4613-9DCD-C0C4C57DF844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66CB481A-CAF9-4613-9DCD-C0C4C57DF844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66CB481A-CAF9-4613-9DCD-C0C4C57DF844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{531B0AEE-C077-4AE7-B333-EB09C9089927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{531B0AEE-C077-4AE7-B333-EB09C9089927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{531B0AEE-C077-4AE7-B333-EB09C9089927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{531B0AEE-C077-4AE7-B333-EB09C9089927}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98211DDE-5186-420B-88CD-CFD799CCC857}
+	EndGlobalSection
+EndGlobal

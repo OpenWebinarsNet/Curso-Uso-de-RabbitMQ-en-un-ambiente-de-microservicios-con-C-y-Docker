@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingHoursManagement.Api", "WorkinghoursManagement\WorkinghoursManagement.Api\WorkingHoursManagement.Api.csproj", "{27055790-9B8A-42F0-A063-BAC0B2C64D28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkinghoursManagement.Application", "WorkinghoursManagement\WorkinghoursManagement.Application\WorkinghoursManagement.Application.csproj", "{A83B270B-7DBD-459C-874D-B695FD215B66}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkinghoursManagement.CrossCutting", "WorkinghoursManagement\WorkinghoursManagement.CrossCutting\WorkinghoursManagement.CrossCutting.csproj", "{8F6AAAD2-2CE0-4412-86B5-599F0A471D4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkinghoursManagement.Domain", "WorkinghoursManagement\WorkinghoursManagement.Domain\WorkinghoursManagement.Domain.csproj", "{7A07105B-F98C-4B73-AAF7-5F77D198B864}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkinghoursManagement.Domain.Core", "WorkinghoursManagement\WorkinghoursManagement.Domain.Core\WorkinghoursManagement.Domain.Core.csproj", "{4D5639E6-A6EF-4B5E-8C14-888620DACD46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkinghoursManagement.Infrastructure", "WorkinghoursManagement\WorkinghoursManagement.Infrastructure\WorkinghoursManagement.Infrastructure.csproj", "{A769A4BE-1EC6-4E1D-931D-939A697715F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkinghoursManagement.Util", "WorkinghoursManagement\WorkinghoursManagement.Util\WorkinghoursManagement.Util.csproj", "{947A86DE-A08A-4663-B996-B43106504986}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkinghoursManagement.UnitTests", "WorkinghoursManagement\WorkinghoursManagement.UnitTests\WorkinghoursManagement.UnitTests.csproj", "{C166E6B3-D801-454A-BDBC-B04948E80D52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27055790-9B8A-42F0-A063-BAC0B2C64D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27055790-9B8A-42F0-A063-BAC0B2C64D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27055790-9B8A-42F0-A063-BAC0B2C64D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27055790-9B8A-42F0-A063-BAC0B2C64D28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A83B270B-7DBD-459C-874D-B695FD215B66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A83B270B-7DBD-459C-874D-B695FD215B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A83B270B-7DBD-459C-874D-B695FD215B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A83B270B-7DBD-459C-874D-B695FD215B66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F6AAAD2-2CE0-4412-86B5-599F0A471D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F6AAAD2-2CE0-4412-86B5-599F0A471D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F6AAAD2-2CE0-4412-86B5-599F0A471D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F6AAAD2-2CE0-4412-86B5-599F0A471D4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A07105B-F98C-4B73-AAF7-5F77D198B864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A07105B-F98C-4B73-AAF7-5F77D198B864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A07105B-F98C-4B73-AAF7-5F77D198B864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A07105B-F98C-4B73-AAF7-5F77D198B864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D5639E6-A6EF-4B5E-8C14-888620DACD46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D5639E6-A6EF-4B5E-8C14-888620DACD46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D5639E6-A6EF-4B5E-8C14-888620DACD46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D5639E6-A6EF-4B5E-8C14-888620DACD46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A769A4BE-1EC6-4E1D-931D-939A697715F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A769A4BE-1EC6-4E1D-931D-939A697715F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A769A4BE-1EC6-4E1D-931D-939A697715F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A769A4BE-1EC6-4E1D-931D-939A697715F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{947A86DE-A08A-4663-B996-B43106504986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{947A86DE-A08A-4663-B996-B43106504986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{947A86DE-A08A-4663-B996-B43106504986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{947A86DE-A08A-4663-B996-B43106504986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C166E6B3-D801-454A-BDBC-B04948E80D52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C166E6B3-D801-454A-BDBC-B04948E80D52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C166E6B3-D801-454A-BDBC-B04948E80D52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C166E6B3-D801-454A-BDBC-B04948E80D52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32E3C8CF-AABB-43CA-BD8B-5DF01637A83B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "f09dEUMLFNo=",
+  "success": true,
+  "projectFilePath": "G:\\ProyectosRonyCuzco\\OpenWebinars\\Curso RabbitMQ\\Curso RabbitMQ - Parte 2\\Ejemplos\\UsersManagement-Microservice\\UsersManagement\\UsersManagement.Domain\\UsersManagement.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rcfle\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
